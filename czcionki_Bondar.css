@@ -1,0 +1,80 @@
+*{
+	margin: 2px;
+	padding: 4px;
+}
+
+/* Akapit 1 */
+p#akapit1_bondar {
+    text-align: center;
+    font-family: serif;/* rodzina czcionki 1 */;
+    color: #Ffef00;/* kolor tekstu z pierwszej tabeli */;
+    text-decoration: overline; /* dekoracja tekstu 3 */;
+    font-style: italic; /* styl czcionki 2 */;
+    font-variant: small-caps;
+    font-weight: 200; /* grubość czcionki 200 */;
+    font-size: x-small; /* rozmiar czcionki 2 */
+    text-transform: uppercase; /* transformacja tekstu */
+    text-indent: 2cm; /* wcięcia tekstu */
+    line-height: 1.2; /* odstępy między wierszami */
+    word-spacing: 12px; /* odstępy między wyrazami */
+    letter-spacing: 5ex; /* odstępy między literami */
+}
+
+/* Akapit 2 */
+p#akapit2_bondar {
+    text-align: right;
+    font-family: sans-serif;/* rodzina czcionki 2 */;
+    color: #0000FF;/* kolor tekstu z drugiej tabeli */;
+    text-decoration: line-through;/* dekoracja tekstu 2 */;
+    font-style: oblique;/* styl czcionki 3 */;
+    font-weight: 300; /* grubość czcionki 300 */;
+    font-size: 30px;/* wybierz i wpisz sam ?? px */;
+    text-transform: capitalize; /* transformacja tekstu */
+    text-indent: 25mm; /* wcięcia tekstu */
+    line-height: 15mm; /* odstępy między wierszami */
+    word-spacing: 10pt; /* odstępy między wyrazami */
+    letter-spacing: 0.5c; /* odstępy między literami */
+}
+
+p#z1_bondar{
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: 900;
+	font-size: large;
+}
+
+p#z2_bondar{
+	font-variant: normal;
+	font-style: normal;
+	font-weight: 700;
+	font-size: large;
+}
+
+p#z3_bondar{
+	font-variant: normal;
+	font-style: normal;
+	font-weight:200;
+	font-size: large;
+}
+
+
+p#z4_bondar{
+	font-variant: normal;
+	font-style: normal;
+	font-weight: 900;
+	font-size: x-small;
+}
+
+p#z5_bondar{
+	font-variant: normal;
+	font-style: normal;
+	font-weight: 700;
+	font-size: medium;
+}
+
+p#z6_bondar{
+	font-variant: normal;
+	font-style: normal;
+	font-weight:200;
+	font-size: large;
+}
