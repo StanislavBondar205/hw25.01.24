@@ -70,3 +70,18 @@
         </body>
 </html>
 <!-- Bondar Stanislaw, klasa 1P grupa 1 -->
+
+CSS
+
+h3 {
+	font-size: 15px;
+	width:  200pt;
+	height: 2,2cm;
+	padding : 20px;
+	margin-left: 760px;
+	border : ridge;
+	border-color: #808080;
+	background : #FF69B4;
+ }
+
+/*Bondar Stanislaw, klasa 1P grupa 1*/
