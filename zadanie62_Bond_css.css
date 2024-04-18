@@ -1,0 +1,16 @@
+p{
+font-size:7mm;
+color: rgb(255, 215, 0);
+}
+
+p:lang(pl){
+font-size:8mm;
+font-weight:bold;
+color: rgb(255, 255, 0);
+}
+
+p:lang(en){
+font-size:12mm;
+font-style:italic;
+color: rgb(255, 0, 0);
+} 

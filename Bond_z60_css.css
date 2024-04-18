@@ -1,0 +1,29 @@
+#blok1_Bondar{
+    width: 604px;
+    background-color: green;
+}
+
+#blok2_Bondar{
+    width: 604px;
+    background-color: green;
+}
+
+#blok3_Bondar{
+    width: 604px;
+    background-color: green;
+}
+
+div#blok1_Bondar:hover{
+    background-color: silver;
+    font-size: 20mm;
+}
+
+div#blok2_Bondar:hover{
+    background-color: orange;
+    font-size: 20mm;
+}
+
+div#blok3_Bondar:hover{
+    background-color: lime;
+    font-size: 20mm;
+}

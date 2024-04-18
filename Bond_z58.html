@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>styl zewnetrzne</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="Bond_z58_css.css">
+    </head>
+    <body>
+        <ol>
+            <li>
+                <p>Co to są pseudoklasy?<br><br>
+                CSS przewiduje kilka ściśle określonych klas pozwalających na formatowanie niektórych 
+                elementów dokumentu są to Pseudoklasy.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Uwaga dotycząca dwukropka :<br><BR>
+                        Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy 
+                        selektorem a nazwą klasy. 
+                </p>
+            </li>
+            <li>
+                <p>Tabela(wykonana w htmlu) opisującą pseudoklasy.<br><BR></p>
+                <table border="1px">
+                    <tr>
+                        <td>A:link,</td>
+                        <td>odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze 
+                            odwiedzone.</td>
+                    </tr>
+                    <tr>
+                        <td>A:visited,</td>
+                        <td>odpowiada za formatowanie hiperłącza już odwiedzonego.</td>
+                    </tr>
+                    <tr>
+                        <td>A:hover,</td>
+                        <td>zmiany pewnych elementów po najechaniu na nie urządzeniem 
+                            wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor
+                            lub element blokowy DIV.</td>
+                    </tr>
+                    <tr>
+                        <td>A:active,</td>
+                        <td>pozwala nadać dowolne formatowanie elementowi po nakierowaniu na 
+                            niego wskaźnika myszy i wciśnięciu przycisku, ale przed jego 
+                            zwolnieniem (odsyłacz aktywnykliknięty).</td>
+                    </tr>
+                    <tr>
+                        <td>A:focus,</td>
+                        <td>jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był formatowany innym kolorem. Odsyłacz posiadający tzw fokuszaznaczony przy poruszaniu się po dokumencie przy pomocy klawisza</td>
+                    </tr>
+                    <tr>
+                        <td>:lang</td>
+                        <td>formatowanie wielojęzykowych dokumentów.</td>
+                    </tr>
+                    <tr>
+                        <td>:first-child</td>
+                        <td>umożliwia określenie formatowania dla pierwszego dziecka wybranego 
+                            elementu.</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <p>Zastosowanie pseudoklasy :active <br><BR>
+                    1)można używać jako uzupełnienia definicji odnośników<BR><BR>
+                    2)jako elementu poprawiającego czytelność formularzy.
+                </p>
+            </li>
+            <li>
+                <p>Przykłady (trzy) kodów definiowania pseudoklas (wraz z tematem)</p>
+                <table border="1px"><td><p>Przykład<br><br>
+                    Temat: Arkusz wykorzystujący :link oraz :visited pseudoklasy w połączeniu z selektorem <br>
+                    A. Przykładowa definicja sformatuje odnośnik za pomocą koloru czerwonego i po wybraniu <br>
+                    taki odnośnik będzie miał kolor zielony.<br><BR>
+                    A:link<br>
+                     {<br>
+                     color:red;<br>
+                     }<br>
+                    A:visited<br>
+                     {<br>
+                     color:green;<br>
+                     }
+                    </p></td></table><BR>
+                <table border="1px"><td><p>
+                    Przykład<BR><BR>
+                    Temat: Formatowanie wyglądu wszystkich odnośników w dokumencie XHTML/HTML.<BR>
+                    A /* Definicja odsyłacza podstawowego*/<BR><BR>
+                     {<BR>
+                     font-size:12pt;<BR>
+                     text-decoration:none;<BR>
+                     }<BR>
+                    A:link<BR>
+                     {<BR>
+                     color:navy;<BR>
+                     }<BR>
+                    A:visited<BR>
+                     {<BR>
+                     color:green;<BR>
+                     }<BR>
+                    A:hover<BR>
+                     {<BR>
+                     color:red;<BR>
+                     text-decoration:underline;<BR>
+                     }<BR>
+
+                </p></td></table><BR>
+                
+                <table border="1px"><td><p>
+                    Przykład <BR><BR>
+                    Temat: Zastosowanie :focus<BR><BR>
+                    A:focus<BR>
+                     {<BR>
+                     color:braun;<BR>
+                     }
+
+                </p></td></table>
+            </li>
+        </ol>
+        
+    </body>
+</html>

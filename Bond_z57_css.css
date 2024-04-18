@@ -1,0 +1,15 @@
+* {
+    font-size: 34pt;
+    color: blue;
+    background-color: yellow;
+}
+
+p.klasa_nieuniwersalna_Bondar{
+    font-size: 31pt;
+    color: purple;
+}
+
+*.klasa_uniwersalna_Bondar{
+    font-size: 30pt;
+    color: green;
+}
