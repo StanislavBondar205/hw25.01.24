@@ -1,0 +1,46 @@
+body { 
+    margin: 0px;
+    border: 0px;
+    padding: 0px; 
+}
+
+p#zero_Bondar{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    
+}
+
+ p#jeden_Bondar{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+ }
+
+ p#dwa_Bondar{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+ }
+
+.first{
+    text-align: center;
+    height: 50px;
+    background-color: rgb(255, 192, 203);
+    background-position: center;
+    background-image: url(img/logo_BONDAR.png);
+    background-repeat: repeat-x;
+}
+
+.second{
+    background-color: rgb(212, 175, 94);
+    background-position: bottom;
+
+}
+
+.third{
+
+    background-color: rgb(50, 205, 50);
+    background-position: bottom;
+
+}

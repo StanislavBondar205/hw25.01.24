@@ -1,0 +1,117 @@
+<!-- okreslenie typu HTML dla walidatora  --> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+ 
+<!-- xmlns okresla przestrzeń nazw dla xml  --> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl"> 
+<head> 
+ <title>styl wewnetrzny body</title> 
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+ <!--   styl wewnetrzny         --> 
+ <style type="text/css"> 
+      /*   zerowanie wszystkich marginesów i przestrzeni*/ 
+         * { 
+            margin: 0px; 
+            padding:  0px;        
+    } 
+      /* definicja div*/ 
+      /* overflow: hidden - -> ukrycie nadmiarowości czyli gdy elementy div są za duże*/ 
+        div { 
+             overflow: hidden; 
+            } 
+      /* definicja ramki-główny element*/ 
+      /* margin-right: auto;-wartość domyślna */ 
+        #ramka { 
+                 background-color: #C93; 
+                 width: 1000px; 
+                 margin-right: auto; 
+                 margin-left: auto; 
+                }   
+      /* definicja nagłówka*/              
+        #naglowek { 
+                 width: 100%; 
+                 background-color: yellow; 
+                 text-align: center;
+                } 
+     /* definicja stopki*/              
+        #stopka { 
+                 width: 100%; 
+                 background-color: #7E6D42;  
+                 } 
+     /* definicja klasy  kolumny */ 
+        .kolumny { 
+                  width:30%; 
+                  margin-top:10px; 
+                  margin-right:2%; 
+                  margin-bottom:2%; 
+                  margin-left:10px; 
+                  } 
+       /* definicje trzech kolumn   */ 
+       /* float :left;  to aby elementy były obok siebie */  
+           
+          #kolumna_pierwsza    { 
+                              float:left; 
+                              background-color: rgb(52, 249, 52); 
+                             } 
+          #kolumna_druga { 
+                              background-color: blue; 
+                              float:left; 
+                                                                              
+                        }  
+          #kolumna_trzecia   {                             
+                               background-color: red; 
+                               float:left; 
+                             } 
+ 
+ </style> 
+</head> 
+ <body> 
+   <div id="ramka"> 
+     <div id="naglowek"><p style="text-align: center;">Bondar Stanislaw 1P</p></div> 
+         <div class="kolumny" id="kolumna_pierwsza"> 
+            <p> Tutaj piewsza kolumna </p> 
+          <ul>
+            <li>w oparciu o tabele (HTMLnie stosowane)</li>
+            <li>w oparciu o iframe (HTMLnie stosowane)</li>
+            <li>na DIVach</li>
+            <li>w oparciu o instrukcje HTML5</li>
+          </ul>
+
+          </div> 
+          <div class="kolumny" id="kolumna_druga"> 
+            <p> Tutaj druga kolumna </p> 
+            
+            <p> Tutaj piewsza kolumna </p> 
+            <p> overflow: hidden; ->  </p> 
+            <p> float:left; -> </p> 
+            <p> margin-top:10px; -> </p> 
+            <p> margin-right:2%; ->  </p> 
+            <p> margin-bottom:2%; ->  </p> 
+            <p> margin-left:10px; ->  </p>
+          </div> 
+          <div class="kolumny" id="kolumna_trzecia"> 
+            <p> Tutaj trzecia kolumna </p> 
+            <ul>
+                <li>SECTION - SECTION Ogólna sekcja dokumentu lub aplikacji. Może być użyta w połączeniu z elementami: H1, H2, H3, H4, H5, H6 - dla wskazania struktury dokumentu.</li>
+                <li>ARTICLE - Niezależny kawałek treści dokumentu, jak np. wpis na blogu albo artykuł w gazecie. </li>
+                <li>ASIDE - Kawałek treści, który tylko nieznacznie jest powiązany z resztą strony.</li>
+                <li>HEADER - Grupa wprowadzająca albo ułatwienia nawigacyjne.</li>
+                <li>FOOTER -  Stopka sekcji. Może zawierać informacje na temat autora, praw autorskich itp.</li>
+                <li>NAV - Sekcja dokumentu przeznaczona na nawigację. </li>
+            </ul>
+          </div> 
+     <div id="stopka">
+        
+        <ul>
+            <li>w oparciu o tabele (HTMLnie stosowane)</li>
+            <li>w oparciu o iframe (HTMLnie stosowane)</li>
+            <li>na DIVach</li>
+            <li>w oparciu o instrukcje HTML5</li>
+        </ul>
+     </div>     
+   </div>   
+
+   <bR>
+    <a href="index.html"> wroc </a>
+ </body> 
+</html> 

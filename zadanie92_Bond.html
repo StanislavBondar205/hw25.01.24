@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+ <html> 
+  <head> 
+   <style type="text/css">            /* początek  def CSS */ 
+      * { margin: 0px; padding: 0px;} /* zerowanie styli */ 
+      div {overflow: hidden; padding: 25px; } 
+/* overflow: hidden -->   ukrycie nadmiarowości czyli gdy elementy div są za duże */ 
+/* padding: 25px;   --> odstep wewnetrzny 25px */ 
+      #ramka { /* definicja elementu ID o nazwie ramka*/ 
+              margin-right: auto; /* auto --> odcentrwanie diva */ 
+              margin-left: auto; 
+              min-width: 400px;  /* minimalna szer strony--> 400px */ 
+              max-width: 100%;  /* maksymalna szer strony--> 900px */ 
+             } 
+      #naglowek { 
+              background-color: #FFFACD;  
+/* kolor tła w HEX na #FCF; */ 
+              font-size:16pt;  
+/* wielkość czcionki na 16 na punkt typograficzny */ 
+              color:red;  
+/* czerwony kolor */ 
+              font-family: Arial;   
+/*  */ 
+              font-style: italic; 
+/* czcionka italic */ 
+              text-align: center;  
+/* odcentrowanie tekstu */ 
+              font-weight:bold; 
+/* ????????????? */ 
+                } 
+      #stopka { 
+                background-color: #FFE4B5; 
+                font-size:16pt;  
+                color:blue;  
+                font-family: Arial;   
+                font-style: italic; 
+                clear:both;  
+/* clear-przyleganie elementów, both-?????????????? */ 
+               } 
+.kolumny {/*definicja elementu klassa o nazwie kolumny jest to samo co Id ale mozna uzywac kilka razy (jest kropka i co to znaczy)*/ 
+                 margin-top: 10px;      /* ????????????? */ 
+                 /*margin-right: 2%;      /* ????????????? */ 
+                 margin-bottom: 2%;     /* ????????????? */ 
+                 margin-left: 10px;     /* ????????????? */ 
+                 background-color: #c0c0c0; 
+         } 
+      #kol1 { 
+              float: left; /* ?????????????? */ 
+              width:100px; 
+              background-color: gold;
+            } 
+      #kol2 { 
+            background-color: yellow;
+            font-size: 0.7cm;
+            color: green;
+        } 
+      #menu_prawe_Bondar { 
+            background-color: yellow;
+            font-size: 0.7cm;
+            color: green;
+        } 
+/* ?????????????? <--*/ </style>  
+ 
+  </head> 
+ <body> 
+  <div id="ramka"> 
+    <div id="naglowek">Nagłówek mojej strony     </div> 
+     <div class="kolumny" id="kol1"><p>Menu</p> </div> 
+     <div class="kolumny" id="kol2">
+     
+
+      <p> Treść:<bR>
+      Szablon pływający (płynny szablon)
+      Przy zmianie szerokości okna przeglądarki zmieniać się będzie szerokość kolumn.
+      Najczęściej zmiana szerokości dotyczy tylko wybranych kolumn np. kolumna menu
+      pozostaje niezmieniona, pozostałe kolumny zmieniaja się płynnie w stosunku do 
+      szerokości okna.</p>
+    
+            
+      <img src="img/Bondar_100procent_skalowana.bmp" alt="100procent">
+      <img src="img/Bondar_50procent_skalowana.bmp" alt="50procent">
+    
+    </div> 
+    <div class="kolumny" id="menu_prawe_Bondar"></div>
+    
+      
+    </div>
+
+    <div id="stopka">Pracę wykonał nieznany woluntariusz</div> 
+  </div> 
+ </body> 
+</html>
+
+<!-- Stanislaw Bondar 1P -->

@@ -1,0 +1,165 @@
+<!-- Bondar 2023.12.15 -->
+<html>
+    <head>
+        <title>Bondar</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    </head>
+    <style>
+    div {
+        background-color: #5FFEC3;
+        border: 5px black solid;
+        color: red;
+        font-size: 42px;
+        width: 900px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        }
+</style>
+    <body>
+        <div style="background-image:url(img/50x50.png)">Powtarzanie grafiki dla calego obszaru</div><Br>
+        <div style="background:url(IMG/50x50.png);background-repeat:repeat-y; background-color:#ffff99;">Powtarzanie grafiki w pionie</div><BR>
+        <div style="background:url(img/50x50.png);background-repeat:repeat-x;background-color:#ffff99;">Powtarzanie grafiki w poziomie</div><Br>
+        <div style="background:url(IMG/50x50.png);background-repeat:no-repeat;background-size:400px 120px;background-color:#ffff99;background-position:center;">Grafiki centrowana o zadanej wielkosci</div><bR>
+    </body>
+</html>
+
+<table border="1px">
+    <tr>
+        <td rowspan="2" style="text-align: center;">Pozycjonowanie</td>
+        <td>Pozycjonowanie
+            pozwala zdefiniować położenie elementów na stronie internetowej. <br>
+           Elementy można rozmieszczać nie tylko względem brzegów strony, ale również względem jej <br>
+           poszczególnych elementów. Można rozmieszczac elementy tak, że jeden będzie przykrywał <br>
+           inny.</td>
+    </tr>
+    <tr>
+        <td>Ogólnie do pozycjonowania służy: <br>
+            Do pozycjonowania służy atrybut position <br>
+            selektor{ position:   rodzaj;  parametry; } </td>
+    </tr>
+<!--  ---------------------------------------------------------->
+<tr>
+    <td rowspan="4" style="text-align: center;">1</td>
+    <td><strong>Pozycjonowanie relatywne </strong></td>
+    
+</tr>
+<tr>
+    <td>Można przesunąć wybrany element w stosunku do naturalnego pozycjonowania 
+        elementów. Można łączyć kierunki, czyli jednocześnie ustawić odległość od na 
+        przykład lewej i górnej krawędzi.</td>
+</tr>
+<tr>
+    <td>selektor {position: relative; kierunek: wielkość;} </td>
+</tr>
+<tr>
+    <td>np.  selektor {position: relative; left: 10px; top: 10px;} </td>
+</tr>
+
+<tr>
+    <td rowspan="4" style="text-align: center;">2</td>
+    <td><strong>Pozycjonowanie absolutne</strong></td>
+    
+</tr>
+<tr>
+    <td> Dzięki temu poleceniu można przesunąć wybrany element w stosunku do wybranych <br>
+    krawędzi strony lub też nadrzędnego elementu tworzącego blok. Będzie to niezależne od <br>
+    innych elementów, a także od miejsca wpisania reguły w dokumencie. <br>
+    Należy zachować ostrożność, używając pozycjonowania absolutnego, ponieważ niekiedy <br>
+    może ono prowadzić do nieprzewidywalnych zachowań. <br>
+    Można łączyć kierunki, czyli jednocześnie ustawić odległość od na przykład lewej i górnej <br>
+    krawędzi.</td>
+</tr>
+<tr>
+    <td>  selektor {position: absolute; kierunek: wielkość;} </td>
+</tr>
+<tr>
+    <td> np.  selektor {position: absolute; left: 10px; top: 10px;}   </td>
+</tr>
+
+<tr>
+    <td rowspan="4" style="text-align: center;">3</td>
+    <td> <strong>Pozycjonowanie ustalone</strong></td>
+    
+</tr>
+<tr>
+    <td>Dzięki temu poleceniu można ustawić na stałe wybrany element w stosunku do krawędzi 
+        okna. Można łączyć kierunki, czyli jednocześnie ustawić odległość od na przykład lewej i 
+        górnej krawędzi. Składnia reguły będzie wyglądała następująco: </td>
+</tr>
+<tr>
+    <td>  selektor {position: fixed; kierunek: wielkość;} </td>
+</tr>
+<tr>
+    <td>  np.  selektor {position: fixed; left: 10px; top: 10px;} </td>
+</tr>
+
+<tr>
+    <td rowspan="6" style="text-align: center;">4</td>
+    <td><strong>>Pozycjonowanie statyczne </strong></td>
+    
+</tr>
+<tr>
+    <td>Dzięki temu poleceniu można przywrócić naturalne pozycjonowanie elementów oparte na 
+        kolejności występowania w dokumencie HTML. Podanie jakiejkolwiek odległości nie ma 
+        żadnego wpływu na pozycję elementu. </td>
+</tr>
+<tr>
+    <td>selektor {position: static;} </td>
+</tr>
+<tr>
+    <td> <strong>Kolejność nakładania (warstwy nakładające się)</strong><bR>
+        rodzaj: <bR>
+        "relative" - pozycjonowanie relatywne <bR>
+        "absolute" - pozycjonowanie absolutne <bR>
+        "fixed" - pozycjonowanie ustalone <bR>
+        kolejność: <bR>
+        liczba określającą kolejność, kolejność rośnie wraz z numeracją element z najmniejszą <bR>
+    liczbą będzie na samym spodzie <bR>
+        "auto" - przywraca naturalną kolejność</td>
+</tr>
+
+<tr>
+    <td>
+        Dzięki temu poleceniu można ustalić kolejność nakładania się elementów. W normalnym <BR>
+stanie elementy nakładają się w kolejności wpisywania do dokumentu HTML. Można to <BR>
+zmienić wstawiając własną kolejność. <BR>
+Kolejność nakładania dotyczy elementów pozycjonowanych. 
+    </td>
+</tr>
+
+<tr>
+    <tD> selektor {position: rodzaj; kierunek: wielkość; z-index: kolejność;}</tD>
+</tr>
+
+<tr>
+    <td rowspan="4" style="text-align: center;">5</td>
+    <td> <strong>Przycinanie elementu </strong></td>
+    
+</tr>
+<tr>
+    <td>Dzięki temu poleceniu można przyciąć element z czterech stron: od góry, prawej strony, od <br>
+        dołu i od lewej strony. Możliwe jest to tylko przy position: absolute;. Przycięty fragment <br>
+        może być tylko prostokątem.  <BR>
+        współrzędne: punkty, od których element będzie przycięty, współrzędne liczone są od <BR>
+        lewego górnego rogu, podaje się je w odpowiedniej kolejności: góra – prawo (dwie liczby) <BR>
+        oraz  dół - lewo(dwie liczby). \
+     </td>
+</tr>
+<tr>
+    <td>selektor {position: absolute; clip: rect(wartości określają rogi prostokąta: górny-prawy i 
+        dolny-lewy.);} </td>
+</tr>
+<tr>
+    <td>np. selektor {position: absolute; clip: rect(10px 100px 10px 10px);}</td>
+</tr>
+
+
+
+
+
+</table>
+
+
+<!-- Stanislaw Bondar-->
