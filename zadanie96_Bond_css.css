@@ -1,0 +1,42 @@
+Body {
+background-color: rgb(124, 96, 61);
+}
+
+
+ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0px;
+    display: block;
+    width: 150px;
+}
+
+ul li {
+    display: block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a:link, ul a:visited {
+    display: block;
+    color: #005500;
+    text-decoration: none;
+    border: 2px outset #cccccc;
+    padding: 5px;
+    width: 120px;
+    background-color: rgb(104, 16, 32); 
+}
+
+ul a:hover {
+    color: #ff00ff;
+    text-decoration: none;
+    border-style: inset;
+    padding: 7px 3px 3px 7px;
+    background-color: rgb(82, 4, 16); 
+}
+
+li.submenu
+{
+background: url("img/Bondar.gif") 95% 50% no-repeat;
+} 
